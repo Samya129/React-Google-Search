@@ -2,12 +2,13 @@ import React from "react"
 import "./style.css"
 
 
-function SearchInput(){
+function SearchInput(props){
     return(
-        <div>
-            <input>
-            
-            </input>
+        <div className="searchInput">
+            <form id="searchForm">
+            <input placeholder="Harry Potter and The Half Blood Prince"></input>
+            </form>
+            <button id="SearchBtn"></button>
         </div>
 
     )
